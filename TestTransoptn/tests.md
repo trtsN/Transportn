@@ -4,7 +4,8 @@
 ### Тест 1:
 Входные данные: матрица 3 на 3 с значениями int.MaxValue, 1, 2, int.MaxValue, 1, 3, int.MaxValue, 2, 3.
 Ожидаемый результат: истина
-public void GetCostPositive()
+
+        public void GetCostPositive()
         {
 
             Dictionary<int, int> resultTest = new Dictionary<int, int>()
@@ -41,8 +42,9 @@ public void GetCostPositive()
 ### Тест 2:
 Входные данные: матрица 3 на 3 с значениями int.MaxValue, 1, 2, int.MaxValue, 1, 3, int.MaxValue, 2, 3.
 Ожидаемый результат: не равные
-public void GetCostNegative()
-        {
+
+                public void GetCostNegative()
+                {
 
             Dictionary<int, int> resultTest = new Dictionary<int, int>()
             {
@@ -75,6 +77,7 @@ public void GetCostNegative()
 ### Тест 1:
 Входные данные: матрица 3 на 3 с значениями int.MaxValue, 1, 2, int.MaxValue, 1, 3, int.MaxValue, 2, 3.
 Ожидаемый результат: 5
+
     public void BestZeroesPositiveTest()
         {
             int n = 3;
@@ -101,7 +104,8 @@ public void GetCostNegative()
 ### Тест 2:
 Входные данные: матрица 3 на 3 с значениями int.MaxValue, 1, 2, int.MaxValue, 1, 3, int.MaxValue, 2, 3.
 Ожидаемый результат: сумма по матрице
-public void BestZeroesNegativeTest()
+
+        public void BestZeroesNegativeTest()
         {
             int n = 3;
             int[,] priceTest = new int[n, n];
