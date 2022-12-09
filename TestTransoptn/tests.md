@@ -1,6 +1,6 @@
 # Программа, решающая транспортную задачу для матрицы 3 на 3.
-##Модульные тесты: 
-###Тест 1:
+## Модульные тесты: 
+### Тест 1:
 Входные данные: матрица 3 на 3 с значениями int.MaxValue, 1, 2, int.MaxValue, 1, 3, int.MaxValue, 2, 3.
 Ожидаемый результат: истина
 public void GetCostPositive()
@@ -37,7 +37,7 @@ public void GetCostPositive()
             Assert.IsTrue(f);
         }
 
-###Тест 2:
+### Тест 2:
 Входные данные: матрица 3 на 3 с значениями int.MaxValue, 1, 2, int.MaxValue, 1, 3, int.MaxValue, 2, 3.
 Ожидаемый результат: не равные
 public void GetCostNegative()
@@ -70,8 +70,8 @@ public void GetCostNegative()
             int result = Program.GetCost(0, resultTest, priceTest);
             Assert.AreNotEqual(test, result);
         }
-##Интеграционные тесты:
-###Тест 1:
+## Интеграционные тесты:
+### Тест 1:
 Входные данные: матрица 3 на 3 с значениями int.MaxValue, 1, 2, int.MaxValue, 1, 3, int.MaxValue, 2, 3.
 Ожидаемый результат: 5
     public void BestZeroesPositiveTest()
@@ -97,7 +97,7 @@ public void GetCostNegative()
 
             Assert.AreEqual(i, j);
         }
-###Тест 2:
+### Тест 2:
 Входные данные: матрица 3 на 3 с значениями int.MaxValue, 1, 2, int.MaxValue, 1, 3, int.MaxValue, 2, 3.
 Ожидаемый результат: сумма по матрице
 public void BestZeroesNegativeTest()
