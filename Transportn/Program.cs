@@ -20,7 +20,7 @@ namespace Transportn
             string g = Console.ReadLine();
 
             if (g != "in.txt")
-            
+            {
                 Console.WriteLine("Неккоректное имя файла");
                 return;
             }
@@ -39,7 +39,7 @@ namespace Transportn
             for (int i = 0; i < n; i++)
             {
                 var line = new int[n];
-                line = in_txt[i + 1].Split(' ').Select(int.Parse).ToArray();
+                line = in_txt[i + 1].Split(' ').Select(int.Parse).ToArray;
 
                 for (int j = 0; j < n; j++)
                 {
