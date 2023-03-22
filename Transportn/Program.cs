@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.IO;
 
+ // транспортная задача
 namespace Transportn
 {
     public class Program
