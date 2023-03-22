@@ -20,7 +20,7 @@ namespace Transportn
             string g = Console.ReadLine();
 
             if (g != "in.txt")
-            {
+            
                 Console.WriteLine("Неккоректное имя файла");
                 return;
             }
